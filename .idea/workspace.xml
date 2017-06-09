@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5f359ab-dda7-4545-9bf8-fd6fad8abf5a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ArticleSpider/utils/cookies.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ArticleSpider/utils/index_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ArticleSpider/utils/zhihu_login_requests.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArticleSpider/utils/bloomfilter.py" afterPath="$PROJECT_DIR$/ArticleSpider/utils/bloomfilter.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/job_info/001/requests.queue/active.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/job_info/001/requests.queue/p0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/job_info/001/requests.seen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/job_info/001/spider.state" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/job_info/002/requests.queue/p0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/job_info/002/requests.seen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project.egg-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project.egg-info/top_level.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArticleSpider/utils/common.py" afterPath="$PROJECT_DIR$/ArticleSpider/utils/common.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/selenium_spider.py" afterPath="$PROJECT_DIR$/tools/selenium_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/ArticleSpider/utils/bloomfilter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -768,7 +776,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="22" width="1259" height="959" extended-state="1" />
+    <frame x="520" y="22" width="1259" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19469027" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1010,7 +1018,7 @@
         <state relative-caret-position="756">
           <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1105,7 +1113,7 @@
     <entry file="file://$PROJECT_DIR$/ArticleSpider/utils/bloomfilter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
