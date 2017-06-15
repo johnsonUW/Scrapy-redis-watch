@@ -38,12 +38,12 @@ def get_price(value):
 
 
 def gen_suggests_eng(index, info_tuple):
-    #根据字符串生成搜索建议数组
+
     used_words = set()
     suggests = []
     for text in info_tuple:
         if text:
-            #调用es的analyze接口分析字符串
+
             words = es.indices.analyze(index=index, analyzer="standard", params={'filter':["lowercase"]}, body=text)
             anylyzed_words = set([r["token"] for r in words["tokens"] if len(r["token"])>1])
             new_words = anylyzed_words - used_words
@@ -56,12 +56,12 @@ def gen_suggests_eng(index, info_tuple):
     return suggests
 
 def gen_suggests_chn(index, info_tuple):
-    #根据字符串生成搜索建议数组
+
     used_words = set()
     suggests = []
     for text in info_tuple:
         if text:
-            #调用es的analyze接口分析字符串
+
             words = es2.indices.analyze(index=index, analyzer="ik_max_word", params={'filter':["lowercase"]}, body=text)
             anylyzed_words = set([r["token"] for r in words["tokens"] if len(r["token"])>1])
             new_words = anylyzed_words - used_words
@@ -74,7 +74,7 @@ def gen_suggests_chn(index, info_tuple):
     return suggests
 
 class Chrono24WatchItemLoader(ItemLoader):
-    #自定义itemloader
+
     default_output_processor = TakeFirst()
 
 
@@ -112,11 +112,11 @@ class Chrono24WatchItem(scrapy.Item):
 
 
 class JomaWatchItemLoader(ItemLoader):
-    #自定义itemloader
+
     default_output_processor = TakeFirst()
 
 class JomaWatchItem(scrapy.Item):
-    #知乎的问题 item
+
     url = scrapy.Field()
     url_object_id = scrapy.Field()
     watch_name = scrapy.Field()
@@ -148,12 +148,12 @@ class JomaWatchItem(scrapy.Item):
 
 
 class xbiaoWatchItemLoader(ItemLoader):
-    #自定义itemloader
+
     default_output_processor = TakeFirst()
 
 
 class xbiaoWatchItem(scrapy.Item):
-    #拉勾网职位信息
+
     url = scrapy.Field()
     url_object_id = scrapy.Field()
     watch_name = scrapy.Field()
